@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryBG"
+        android:layout_margin="10dp">
+
+        <include layout="@layout/app_bar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_main"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp" />
+
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/recycler_view_main"
+            android:layout_gravity="bottom|end"
+            android:overScrollMode="always"
+            app:fab_addButtonColorNormal="#072BEF"
+            app:fab_addButtonColorPressed="#3B52CF"
+            app:fab_labelStyle="@style/custom_fab">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_take_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorPrimary"
+                app:fab_colorPressed="@color/colorPrimary"
+                app:fab_icon="@drawable/ic_photo_camera"
+                app:fab_size="mini" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorPrimary"
+                app:fab_colorPressed="@color/colorPrimary"
+                app:fab_icon="@drawable/ic_photo_library"
+                app:fab_size="mini" />
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+</ScrollView>

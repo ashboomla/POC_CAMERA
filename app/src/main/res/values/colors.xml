@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryLight">#DEF1FA</color>
+    <color name="colorPrimaryBG">#A3D2EC</color>
+    <color name="colorPrimary">#4FB7E6</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#03A9F4</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorButton">#FBF29F</color>
+
+    <color name="colorShimmerBG">#BCBCBD</color>
+
+</resources>

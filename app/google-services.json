@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1024691062425",
+    "firebase_url": "https://selfieapp-384a4.firebaseio.com",
+    "project_id": "selfieapp-384a4",
+    "storage_bucket": "selfieapp-384a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024691062425:android:4fdc5493913e62c48a1a08",
+        "android_client_info": {
+          "package_name": "com.example.selfieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024691062425-5j6s3sd8qki381tnu0r6hsdgluvabdkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEMcsCxxdTV1Py8my3Rx3ESwuuVj4YPVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024691062425-5j6s3sd8qki381tnu0r6hsdgluvabdkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

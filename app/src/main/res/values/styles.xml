@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ABar" parent="Platform.MaterialComponents">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/colorIcons</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--TITLES-->
+    <style name="textTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Subs-->
+    <style name="textSubStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!--BUTTONS-->
+    <style name="buttonStyle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="custom_fab">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#0B0A0A</item>
+    </style>
+
+
+
+</resources>

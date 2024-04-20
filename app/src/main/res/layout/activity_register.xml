@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBG"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="16dp">
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/selfie_logo"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center"
+    />
+    <TextView
+        style="@style/textTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:text="Welcome New User"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_email_Register"
+        style="@style/textSubStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_textbox"
+        android:drawableStart="@drawable/ic_mail_"
+        android:hint="enter email" />
+
+    <EditText
+        android:id="@+id/edit_text_password_Register"
+        style="@style/textSubStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_textbox"
+        android:drawableStart="@drawable/ic_key"
+        android:hint="enter password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_register_Register"
+        style="@style/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/background_button"
+        android:text="register" />
+
+    <TextView
+        android:id="@+id/text_view_login_Register"
+        android:text="Already Registered? Click Here"
+        style="@style/textSubStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

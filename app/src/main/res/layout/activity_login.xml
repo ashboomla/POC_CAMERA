@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimaryBG"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/selfie_logo"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        style="@style/textTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:text="Login"
+        />
+
+
+    <EditText
+        style="@style/textSubStyle"
+        android:background="@drawable/background_textbox"
+        android:drawableStart="@drawable/ic_mail_"
+        android:id="@+id/edit_text_email_Login"
+        android:layout_width="match_parent"
+        android:hint="Enter Email"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+<!--        android:drawableStart="null"-->
+
+    <EditText
+        style="@style/textSubStyle"
+        android:background="@drawable/background_textbox"
+        android:drawableStart="@drawable/ic_key"
+        android:id="@+id/edit_text_password_Login"
+        android:layout_width="match_parent"
+        android:hint="Enter Password"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_login_Login"
+        android:text="Login"
+        style="@style/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/background_button"
+        />
+    <TextView
+        android:id="@+id/text_view_register_login"
+        android:text="New User? Click Here"
+        style="@style/textSubStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/button_loginPhone_Login"
+            android:layout_width="match_parent"
+            android:text="Login With Phone Number"
+            style="@style/buttonStyle"
+            android:textSize="12dp"
+            android:textStyle="normal"
+            android:background="@drawable/background_button_squared"
+            android:layout_margin="10dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:drawableStart="@drawable/ic_smartphone"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button_google"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"/>
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/buttonFacebookLogin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
